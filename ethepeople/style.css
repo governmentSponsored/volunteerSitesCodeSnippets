@@ -1,0 +1,43 @@
+/*---- Start of Voter Guide Widget ----*/
+#submitCitizenGuide {
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 20px 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+#submitCitizenGuide #citizenGuide label {
+	display: none;
+}
+.form-control {
+	width: 95%;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	height: 40px;
+	padding-left: 8px;
+	display: block;
+	font-size: 14px;
+	webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.form-group input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+#submitGuideRequest {
+	padding: 5px;
+	font-size: 15px;
+	border-radius: 4px;
+	border: 1px solid transparent;
+	margin-top: 20px;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: #d6e3e8;
+}
+#submitGuideRequest:hover, #submitGuideRequest:focus, #submitGuideRequest:active {
+	background-color: #ebf6fa;
+}
+/*---- End of Voter Guide Widget ----*/
