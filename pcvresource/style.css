@@ -56,3 +56,11 @@ li.feed-item {
 .ukraine {
   background-position: -79px 20px;
 }
+
+/* Tags on right hand nav */
+.terrible-tag {
+  font-size: 16px !important;
+  width: 100%;
+  float: left;
+  color: rgb(62, 143, 205) !important;
+}
