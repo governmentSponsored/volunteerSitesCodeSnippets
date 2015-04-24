@@ -28,5 +28,11 @@
   
   //change product description on products pages to additional information
   $('#tab-description h2').text('Additional Information');
+  
+  //hide thumbnails on only the journal product pages
+  var url = window.location.href;
+  if(url.indexOf('/product/') > -1 && url.indexOf('journal') > -1) {
+  	$('div.thumbnails .zoom').hide();
+  }
   })
 })(jQuery);
